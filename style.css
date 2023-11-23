@@ -1,0 +1,24 @@
+.col-sm-2 {
+    background-color: aquamarine;
+    min-height: 100vh;
+}
+
+.col-3 {
+    background-color: bisque;
+}
+
+.col-4 {
+    background-color: brown;
+}
+
+.col-sm-6 {
+    background-color: gray;
+}
+
+.col-8 {
+    background-color: aqua;
+}
+
+.col-12 {
+    background-color: blueviolet;
+}
