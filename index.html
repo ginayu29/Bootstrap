@@ -78,9 +78,9 @@
                         <span style="font-weight: 400; font-size: 16px;">Jones Ferdinand</span>
                         <img src="img/profile.png" width="50px" style="margin-left: 20px;">
                     </div>
-                </div>                           
-               <div class="row gx-2">
-                  <!-- Professor why does adding GX 5 here make everything spill out? -->
+                </div>               
+               <!-- Boxes Top Row -->
+               <div class="row gx-3">
                   <div class="col-3 p-3 gy-3">
                      <div class="rectangle p-4 border border rounded" style="background-color: white; height: 120px;">
                         <p class="box-title mb-0">Unresolved</p>
@@ -100,102 +100,145 @@
                      </div>
                   </div>
                   <div class="col-3 p-3 gy-3">
-                     <div class="rectangle p-4 border border rounded" style="background-color: white; height: 120px;">
+                     <div class="rectangle p-4 border rounded" style="background-color: white; height: 120px;">
                         <p class="box-title mb-0">On Hold</p>
                         <p class="box-subtitle">64</p>
                      </div>
                   </div>
                </div>
                <!-- Row under the 4 square with the graph and stuff -->
-               <div class="row gx-2">
-                  <div class="col-8 p-3 gy-3">
-                     Graphy Box
-                  </div>
-                  <!-- Sidebars beside the graph table -->
-                  <div class="col-4 gy-3">
-                     <div class="row p-3 ">
-                        Resolved
-                     </div>
-                     <div class="row p-3">
-                        Received
-                     </div>
-                     <div class="row p-3">
-                        Average first response time
-                     </div>
-                     <div class="row p-3">
-                        Averager response time
-                     </div>
-                     <div class="row p-3">
-                        Resolution within SLA
-                     </div>
-                  </div>
-               </div>
+                <div class="p-2">
+                    <div class="row mx-auto border rounded">
+                        <!-- Graph Box-  -->
+                        <div class="col-8 p-0 rectangle border" style="background-color: white;">
+                            <img class="graph border-right-2" src="/img/Graph.png">
+                        </div>
+                        <!-- Sidebars beside the graph table -->
+                        <div class="col-4">
+                            <div class="row p-3 row border-bottom">
+                                Resolved
+                            </div>
+                            <div class="row p-3 row border-bottom">
+                                Received
+                            </div>
+                            <div class="row p-3 row border-bottom">
+                                Average first response time
+                            </div>
+                            <div class="row p-3 row border-bottom">
+                                Averager response time
+                            </div>
+                            <div class="row p-3">
+                                Resolution within SLA
+                            </div>
+                        </div>
+                    </div>
+                </div>
                <!-- Row under the Graph -->
-               <div class="row gx-2">
-                  <!-- Two Columns under the graph stuff -->
-                  <div class="col-sm-6 p-3 gy-3 border border rounded text-start" style="background-color: white;">
-                     <div class="row p-2">
-                        <div class="col-sm-6">
-                           <p class="bottom-left-title">Unresolved Tickets</p>
+               <div class="row gx-3 mb-4 p-3">
+                  
+               <!-- Two Columns under the graph stuff -->   
+                  
+                  <!-- First Column Unresolved Tickets -->
+                  <div class="col-sm-6 mx-0 gy-3">
+                     <div class="rectangle border rounded text-start" style="background-color: white;">
+                        <div class="row p-2">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-title">Unresolved Tickets</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p style="color: #546aff;">View details</p>
+                           </div>
+                           <p><span style="color: #c3c5d0; font-size: 13px;">Group: </span> <span style="font-weight: bold; font-size: 13px;">Support</span></p>
                         </div>
-                        <div class="col-sm-6 text-end">
-                           <p style="color: #546aff;">View details</p>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-each-title">Waiting on Feature Request</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p class="bottom-left-each-number">4238</p>
+                           </div>
+                           <hr class="my-4">
                         </div>
-                        <p><span style="color: #c3c5d0; font-size: 13px;">Group: </span> <span style="font-weight: bold; font-size: 13px;">Support</span></p>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-each-title">Awaiting Customer Response</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p class="bottom-left-each-number">1005</p>
+                           </div>
+                           <hr class="my-4">
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-each-title">Awaiting Developer Fix</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p class="bottom-left-each-number">914</p>
+                           </div>
+                           <hr class="my-4">
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-each-title">Pending</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p class="bottom-left-each-number">281</p>
+                           </div>
+                        </div>
                      </div>
-                     <div class="row p-3">
-                        <div class="col-sm-6">
-                           <p class="bottom-left-each-title">Waiting on Feature Request</p>
+                  </div>
+                  
+                  <!-- Second Box -->
+                  <div class="col-sm-6 mx-0 gy-3">
+                     <div class="rectangle border rounded text-start" style="background-color: white;">
+                        <div class="row p-2">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-title">Unresolved Tickets</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p style="color: #546aff;">View details</p>
+                           </div>
+                           <p><span style="color: #c3c5d0; font-size: 13px;">Group: </span> <span style="font-weight: bold; font-size: 13px;">Support</span></p>
                         </div>
-                        <div class="col-sm-6 text-end">
-                           <p class="bottom-left-each-number">4238</p>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-each-title">Waiting on Feature Request</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p class="bottom-left-each-number">4238</p>
+                           </div>
+                           <hr class="my-4">
                         </div>
-                        <hr class="my-4">
-                     </div>
-                     <div class="row p-3">
-                        <div class="col-sm-6">
-                           <p class="bottom-left-each-title">Awaiting Customer Response</p>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-each-title">Awaiting Customer Response</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p class="bottom-left-each-number">1005</p>
+                           </div>
+                           <hr class="my-4">
                         </div>
-                        <div class="col-sm-6 text-end">
-                           <p class="bottom-left-each-number">1005</p>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-each-title">Awaiting Developer Fix</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p class="bottom-left-each-number">914</p>
+                           </div>
+                           <hr class="my-4">
                         </div>
-                        <hr class="my-4">
-                     </div>
-                     <div class="row p-3">
-                        <div class="col-sm-6">
-                           <p class="bottom-left-each-title">Awaiting Developer Fix</p>
-                        </div>
-                        <div class="col-sm-6 text-end">
-                           <p class="bottom-left-each-number">914</p>
-                        </div>
-                        <hr class="my-4">
-                     </div>
-                     <div class="row p-3">
-                        <div class="col-sm-6">
-                           <p class="bottom-left-each-title">Pending</p>
-                        </div>
-                        <div class="col-sm-6 text-end">
-                           <p class="bottom-left-each-number">281</p>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <p class="bottom-left-each-title">Pending</p>
+                           </div>
+                           <div class="col-sm-6 text-end">
+                              <p class="bottom-left-each-number">281</p>
+                           </div>
                         </div>
                      </div>
                   </div>
-                  <div class="col-sm-6 p-3 gy-3" style="background-color: red;">
-                     <div class="row p-5">
-                        Tasks
-                     </div>
-                     <div class="row p-3">
-                        Awaiting on Feature Request
-                     </div>
-                     <div class="row p-3">
-                        Awaiting Customer Response
-                     </div>
-                     <div class="row p-3">
-                        Awaiting Developer Fix
-                     </div>
-                     <div class="row p-3">
-                        Pending
-                     </div>
-                  </div>
+
+
                </div>
             </div>
          </div>

@@ -5,14 +5,15 @@
 
 
 .col-4 {
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
 }
 
-
-.col-8 {
-    background-color: aqua;
+.graph {
+   width: 35vw;
+   height: auto;
+   max-width: 600px;
+   max-height: 600px;
 }
-
 
 .left-panel-title {
     color: #9d9fac;
@@ -73,6 +74,7 @@ body {
 .bottom-left-each-title {
     font-family: "Alegreya Sans";
     font-weight: 500;
+    margin-left: 10px;
 
 }
 
