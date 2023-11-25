@@ -1,119 +1,205 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" /> 
-</head>
-<body>    
-    <h1>Test</h1>
-    <div class="container text-center overflow-hidden px-4">
-        <!-- Side bar and other content split up -->
-        <div class="row gx-5">
-          <!-- Sidebar with padding 2/12 -->
-          <div class="col-sm-2 p-3">
-            <div class="row p-5"> Dashboard Kit</div>
-            <div class="row p-3"> Overview</div>
-            <div class="row p-3"> Tickets</div>
-            <div class="row p-3"> Ideas</div>
-            <div class="row p-3"> Contacts</div>
-            <div class="row p-3"> Agents</div>
-            <div class="row p-3"> Articles</div>
-            <br>
-            <div class="row p-3"> Setting</div>
-            <div class="row p-3"> Subscription</div>
-          </div>
-          <!-- 4 small squares beside the sidebar 10/12-->
-          <div class="col-sm-10">
-            <div class="row g-2">
-                <div class="col-12 p-3">
-                    Header
-                </div>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap demo</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container text-center overflow-hidden px-4">
+         <!-- Side bar and other content split up -->
+         <div class="row gx-5">
+            <!-- Sidebar with padding 2/12 -->
+            <div class="col-sm-2 p-3">
+               <div class="left-panel-title">
+                  <div class="row p-3 text-start">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/dashboard-icon.png"> Dashboard Kit</p>
+                  </div>
+               </div>
+               <div class="left-panel-text">
+                  <div class="row p-3 text-start" style="background-color: #3e4049;">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/overview.png"> Overview</p>
+                  </div>
+               </div>
+               <div class="left-panel-text">
+                  <div class="row p-3 text-start">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/tickets.png"> Tickets</p>
+                  </div>
+               </div>
+               <div class="left-panel-text">
+                  <div class="row p-3 text-start">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/ideas.png"> Ideas</p>
+                  </div>
+               </div>
+               <div class="left-panel-text">
+                  <div class="row p-3 text-start">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/contacts.png"> Contacts</p>
+                  </div>
+               </div>
+               <div class="left-panel-text">
+                  <div class="row p-3 text-start">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/agents.png"> Agents</p>
+                  </div>
+               </div>
+               <div class="left-panel-text">
+                  <div class="row p-3 text-start">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/articles.png"> Articles</p>
+                  </div>
+               </div>
+               <hr class="my-4" style="border-top: 3px solid #40414a;">
+               <div class="left-panel-text">
+                  <div class="row p-3 text-start">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/settings.png"> Settings</p>
+                  </div>
+               </div>
+               <div class="left-panel-text">
+                  <div class="row p-3 text-start">
+                     <p style="display:inline-block;"><img class="left-panel-image" src="img/subscription.png"> Subscription</p>
+                  </div>
+               </div>
             </div>
-            <div class="row gx-2">
-                <!-- Professor why does adding GX 5 here make everything spill out? -->
-              <div class="col-3 p-3 gy-3">
-                Unresolved
-              </div>
-              <div class="col-3 p-3 gy-3">
-                Overdue
-              </div>
-              <div class="col-3 p-3 gy-3">
-                Open
-              </div>
-              <div class="col-3 p-3 gy-3">
-                On Hold
-              </div>
-            </div>
-            <!-- Row under the 4 square with the graph and stuff -->
-            <div class="row gx-2">
-                <div class="col-8 p-3 gy-3">
-                    Graphy Box
-                </div>
-                <!-- Sidebars beside the graph table -->
-                <div class="col-4 gy-3">
-                    <div class="row p-3 ">
+            <!-- 4 small squares beside the sidebar 10/12-->
+            <div class="col-sm-10">
+                <div class="row g-2 align-items-center">
+                    <div class="col-6 p-3 d-flex align-items-center">
+                        <!-- This should be touching the left edge of the website -->
+                        <p class="header-title">Overview</p>
+                    </div>
+                    <div class="col-6 p-3 d-flex align-items-center justify-content-end">
+                        <!-- These should be touching the right edge of the website -->
+                        <img src="img/search.png" width="30px" style="margin-right: 20px;">
+                        <img src="img/notifications.png" width="30px" style="margin-right: 20px;">
+                        <div class="vertical-line" style="margin-right: 20px;"></div>
+                        <span style="font-weight: 400; font-size: 16px;">Jones Ferdinand</span>
+                        <img src="img/profile.png" width="50px" style="margin-left: 20px;">
+                    </div>
+                </div>                           
+               <div class="row gx-2">
+                  <!-- Professor why does adding GX 5 here make everything spill out? -->
+                  <div class="col-3 p-3 gy-3">
+                     <div class="rectangle p-4 border border rounded" style="background-color: white; height: 120px;">
+                        <p class="box-title mb-0">Unresolved</p>
+                        <p class="box-subtitle">60</p>
+                     </div>
+                  </div>
+                  <div class="col-3 p-3 gy-3">
+                     <div class="rectangle p-4 border border rounded" style="background-color: white; height: 120px;">
+                        <p class="box-title mb-0">Overdue</p>
+                        <p class="box-subtitle">16</p>
+                     </div>
+                  </div>
+                  <div class="col-3 p-3 gy-3">
+                     <div class="rectangle p-4 border border rounded" style="background-color: white; height: 120px;">
+                        <p class="box-title mb-0">Open</p>
+                        <p class="box-subtitle">43</p>
+                     </div>
+                  </div>
+                  <div class="col-3 p-3 gy-3">
+                     <div class="rectangle p-4 border border rounded" style="background-color: white; height: 120px;">
+                        <p class="box-title mb-0">On Hold</p>
+                        <p class="box-subtitle">64</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Row under the 4 square with the graph and stuff -->
+               <div class="row gx-2">
+                  <div class="col-8 p-3 gy-3">
+                     Graphy Box
+                  </div>
+                  <!-- Sidebars beside the graph table -->
+                  <div class="col-4 gy-3">
+                     <div class="row p-3 ">
                         Resolved
-                    </div>
-                    <div class="row p-3">
+                     </div>
+                     <div class="row p-3">
                         Received
-                    </div>
-                    <div class="row p-3">
+                     </div>
+                     <div class="row p-3">
                         Average first response time
-                    </div>
-                    <div class="row p-3">
+                     </div>
+                     <div class="row p-3">
                         Averager response time
-                    </div>
-                    <div class="row p-3">
+                     </div>
+                     <div class="row p-3">
                         Resolution within SLA
-                    </div>
-                </div>
-            </div>
-            <!-- Row under the Graph -->
-            <div class="row gx-2">
-                <!-- Two Columns under the graph stuff -->
-                <div class="col-sm-6 p-3 gy-3">
-                    <div class="row p-5">
-                       Unresolved Tickets 
-                    </div>
-                    <div class="row p-3">
-                        Awaiting on Feature Request
-                    </div>
-                    <div class="row p-3">
-                        Awaiting Customer Response
-                    </div>
-                    <div class="row p-3">
-                        Awaiting Developer Fix
-                    </div>
-                    <div class="row p-3">
-                        Pending
-                    </div>
-                </div>
-                <div class="col-sm-6 p-3 gy-3">
-                    <div class="row p-5">
+                     </div>
+                  </div>
+               </div>
+               <!-- Row under the Graph -->
+               <div class="row gx-2">
+                  <!-- Two Columns under the graph stuff -->
+                  <div class="col-sm-6 p-3 gy-3 border border rounded text-start" style="background-color: white;">
+                     <div class="row p-2">
+                        <div class="col-sm-6">
+                           <p class="bottom-left-title">Unresolved Tickets</p>
+                        </div>
+                        <div class="col-sm-6 text-end">
+                           <p style="color: #546aff;">View details</p>
+                        </div>
+                        <p><span style="color: #c3c5d0; font-size: 13px;">Group: </span> <span style="font-weight: bold; font-size: 13px;">Support</span></p>
+                     </div>
+                     <div class="row p-3">
+                        <div class="col-sm-6">
+                           <p class="bottom-left-each-title">Waiting on Feature Request</p>
+                        </div>
+                        <div class="col-sm-6 text-end">
+                           <p class="bottom-left-each-number">4238</p>
+                        </div>
+                        <hr class="my-4">
+                     </div>
+                     <div class="row p-3">
+                        <div class="col-sm-6">
+                           <p class="bottom-left-each-title">Awaiting Customer Response</p>
+                        </div>
+                        <div class="col-sm-6 text-end">
+                           <p class="bottom-left-each-number">1005</p>
+                        </div>
+                        <hr class="my-4">
+                     </div>
+                     <div class="row p-3">
+                        <div class="col-sm-6">
+                           <p class="bottom-left-each-title">Awaiting Developer Fix</p>
+                        </div>
+                        <div class="col-sm-6 text-end">
+                           <p class="bottom-left-each-number">914</p>
+                        </div>
+                        <hr class="my-4">
+                     </div>
+                     <div class="row p-3">
+                        <div class="col-sm-6">
+                           <p class="bottom-left-each-title">Pending</p>
+                        </div>
+                        <div class="col-sm-6 text-end">
+                           <p class="bottom-left-each-number">281</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 p-3 gy-3" style="background-color: red;">
+                     <div class="row p-5">
                         Tasks
                      </div>
                      <div class="row p-3">
-                         Awaiting on Feature Request
+                        Awaiting on Feature Request
                      </div>
                      <div class="row p-3">
-                         Awaiting Customer Response
+                        Awaiting Customer Response
                      </div>
                      <div class="row p-3">
-                         Awaiting Developer Fix
+                        Awaiting Developer Fix
                      </div>
                      <div class="row p-3">
-                         Pending
+                        Pending
                      </div>
-                </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          
-        </div>
+         </div>
       </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   </body>
 </html>

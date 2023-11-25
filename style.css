@@ -1,10 +1,10 @@
 .col-sm-2 {
-    background-color: aquamarine;
+    background-color: #363741;
     min-height: 100vh;
 }
 
 .col-3 {
-    background-color: bisque;
+    
 }
 
 .col-4 {
@@ -12,7 +12,7 @@
 }
 
 .col-sm-6 {
-    background-color: gray;
+    
 }
 
 .col-8 {
@@ -20,5 +20,73 @@
 }
 
 .col-12 {
-    background-color: blueviolet;
+
+}
+
+.left-panel-title {
+    color: #9d9fac;
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.left-panel-text {
+    color: #9d9fac;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    opacity: 80%;
+}
+ 
+.left-panel-image {
+    width: 30px;
+    height: 30px;
+    padding-right: 2px;
+}
+
+body {
+    background-color: #f7f8fc;
+}
+
+.header-title {
+    text-align: left;
+    font-family: "Alegreya Sans";
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.vertical-line {
+    border-left: 1px solid #e0e1ec;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+.box-title {
+    color: #9fa2b4;
+    font-family: "Alegreya Sans";
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box-subtitle {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bottom-left-title {
+    font-family: "Alegreya Sans";
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.bottom-left-each-title {
+    font-family: "Alegreya Sans";
+    font-weight: 500;
+
+}
+
+.bottom-left-each-number {
+    font-family: "Alegreya Sans";
+    color: #a9acbc;
+    font-size: 17px;
 }
