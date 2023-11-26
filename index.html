@@ -110,37 +110,94 @@
                 <div class="p-2">
                     <div class="row mx-auto border rounded">
                         <!-- Graph Box-  -->
-                        <div class="col-8 p-0 rectangle border" style="background-color: white;">
-                            <img class="graph border-right-2" src="/img/Graph.png">
+                        <div class="col-8 p-0 rectangle border text-start p-3" style="background-color: white;">
+                           <span class="bottom-left-title text-start">Today's Trends</span>
+                           <br>
+                           <span style="font-weight: light; font-size: 13px; color: gray;">as of 25 May 2019, 09:41 PM</span>
+                           <p class="text-end">
+                              <span style="font-weight: light; font-size: 13px; color: blue">
+                                 ━━ 
+                              </span>
+                              <span style="font-weight: light; font-size: 13px; color: gray">
+                                 Today
+                              </span>
+                              <span style="font-weight: light; font-size: 13px; color: gray">
+                                 ━━ Yesterday
+                              </span>
+                           </p>
+                           <div class="graphbox">
+                              <img id="graph" class="rounded mx-auto d-block" src="/img/Graph.png">
+                           </div>
                         </div>
                         <!-- Sidebars beside the graph table -->
                         <div class="col-4">
                             <div class="row p-3 row border-bottom">
-                                Resolved
+                              <p>
+                                 <span style="font-size: 14px; color: gray;">
+                                    Resolved
+                                 </span>
+                                 <br>
+                                 <span style="font-weight: bold; 17px;">
+                                    449
+                                 </span>
+                              </p>               
                             </div>
                             <div class="row p-3 row border-bottom">
-                                Received
+                              <p>
+                                 <span style="font-size: 14px; color: gray;">
+                                    Received
+                                 </span>
+                                 <br>
+                                 <span style="font-weight: bold; 17px;">
+                                    426
+                                 </span>
+                              </p>   
                             </div>
                             <div class="row p-3 row border-bottom">
-                                Average first response time
+                              <p>
+                                 <span style="font-size: 14px; color: gray;">
+                                    Average first response time
+                                 </span>
+                                 <br>
+                                 <span style="font-weight: bold; 17px;">
+                                    33m
+                                 </span>
+                              </p>  
                             </div>
                             <div class="row p-3 row border-bottom">
-                                Averager response time
+                              <p>
+                                 <span style="font-size: 14px; color: gray;">
+                                    Average response time
+                                 </span>
+                                 <br>
+                                 <span style="font-weight: bold; 17px;">
+                                    3h 8m
+                                 </span>
+                              </p>  
                             </div>
                             <div class="row p-3">
-                                Resolution within SLA
+                              <p>
+                                 <span style="font-size: 14px; color: gray;">
+                                    Resolution within SLA
+                                 </span>
+                                 <br>
+                                 <span style="font-weight: bold; 17px;">
+                                    94%
+                                 </span>
+                              </p>  
+                                
                             </div>
                         </div>
                     </div>
                 </div>
                <!-- Row under the Graph -->
-               <div class="row gx-3 mb-4 p-3">
+               <div class="row gx-3 mb-4 p-2">
                   
                <!-- Two Columns under the graph stuff -->   
                   
                   <!-- First Column Unresolved Tickets -->
-                  <div class="col-sm-6 mx-0 gy-3">
-                     <div class="rectangle border rounded text-start" style="background-color: white;">
+                  <div class="col-6 gy-3">
+                     <div class="rectangle border rounded text-start p-3" style="background-color: white;">
                         <div class="row p-2">
                            <div class="col-sm-6">
                               <p class="bottom-left-title">Unresolved Tickets</p>
@@ -151,37 +208,37 @@
                            <p><span style="color: #c3c5d0; font-size: 13px;">Group: </span> <span style="font-weight: bold; font-size: 13px;">Support</span></p>
                         </div>
                         <div class="row">
-                           <div class="col-sm-6">
+                           <div class="col-10">
                               <p class="bottom-left-each-title">Waiting on Feature Request</p>
                            </div>
-                           <div class="col-sm-6 text-end">
+                           <div class="col-2 text-end">
                               <p class="bottom-left-each-number">4238</p>
                            </div>
                            <hr class="my-4">
                         </div>
                         <div class="row">
-                           <div class="col-sm-6">
+                           <div class="col-10">
                               <p class="bottom-left-each-title">Awaiting Customer Response</p>
                            </div>
-                           <div class="col-sm-6 text-end">
+                           <div class="col-2 text-end">
                               <p class="bottom-left-each-number">1005</p>
                            </div>
                            <hr class="my-4">
                         </div>
                         <div class="row">
-                           <div class="col-sm-6">
+                           <div class="col-10">
                               <p class="bottom-left-each-title">Awaiting Developer Fix</p>
                            </div>
-                           <div class="col-sm-6 text-end">
+                           <div class="col-2 text-end">
                               <p class="bottom-left-each-number">914</p>
                            </div>
                            <hr class="my-4">
                         </div>
                         <div class="row">
-                           <div class="col-sm-6">
+                           <div class="col-10">
                               <p class="bottom-left-each-title">Pending</p>
                            </div>
-                           <div class="col-sm-6 text-end">
+                           <div class="col-2 text-end">
                               <p class="bottom-left-each-number">281</p>
                            </div>
                         </div>
@@ -190,49 +247,58 @@
                   
                   <!-- Second Box -->
                   <div class="col-sm-6 mx-0 gy-3">
-                     <div class="rectangle border rounded text-start" style="background-color: white;">
+                     <div class="rectangle border rounded text-start p-3" style="background-color: white;">
                         <div class="row p-2">
                            <div class="col-sm-6">
-                              <p class="bottom-left-title">Unresolved Tickets</p>
+                              <p class="bottom-left-title">Tasks</p>
                            </div>
                            <div class="col-sm-6 text-end">
-                              <p style="color: #546aff;">View details</p>
+                              <p style="color: #546aff;" style="border-bottom: 2px gray;">View details</p>
                            </div>
-                           <p><span style="color: #c3c5d0; font-size: 13px;">Group: </span> <span style="font-weight: bold; font-size: 13px;">Support</span></p>
+                           <p><span style="color: #c3c5d0; font-size: 13px;">Today</span></p>
                         </div>
                         <div class="row">
-                           <div class="col-sm-6">
-                              <p class="bottom-left-each-title">Waiting on Feature Request</p>
+                           <div class="col-11">
+                              <p><span style="color: #c3c5d0;">Create new task</span></p>
                            </div>
-                           <div class="col-sm-6 text-end">
-                              <p class="bottom-left-each-number">4238</p>
+                           <div class="col-1 text-center">
+                              <p class="bottom-right-text rectangle border-0 rounded" style="background-color: rgb(235, 235, 235); font-weight: bolder;">+</p>
                            </div>
                            <hr class="my-4">
                         </div>
                         <div class="row">
-                           <div class="col-sm-6">
-                              <p class="bottom-left-each-title">Awaiting Customer Response</p>
+                           <div class="col-9">
+                              <input type="radio" id="finishticket">
+                              <label for="finishticket" class="bottom-left-each-title">
+                                 Finish ticket update
+                              </label>
                            </div>
-                           <div class="col-sm-6 text-end">
-                              <p class="bottom-left-each-number">1005</p>
-                           </div>
-                           <hr class="my-4">
-                        </div>
-                        <div class="row">
-                           <div class="col-sm-6">
-                              <p class="bottom-left-each-title">Awaiting Developer Fix</p>
-                           </div>
-                           <div class="col-sm-6 text-end">
-                              <p class="bottom-left-each-number">914</p>
+                           <div class="col-3 text-center">
+                              <p class="bottom-right-text rectangle border-0 rounded" style="background-color: rgb(255, 206, 72); color: white;">URGENT</p>
                            </div>
                            <hr class="my-4">
                         </div>
                         <div class="row">
-                           <div class="col-sm-6">
-                              <p class="bottom-left-each-title">Pending</p>
+                           <div class="col-10">
+                              <input type="radio" id="create">
+                              <label for="create" class="bottom-left-each-title">
+                                 Create new ticket example
+                              </label>
                            </div>
-                           <div class="col-sm-6 text-end">
-                              <p class="bottom-left-each-number">281</p>
+                           <div class="col-2 text-center">
+                              <p class="bottom-right-text rectangle border-0 rounded" style="background-color: rgb(69, 206, 115); color: white;">NEW</p>
+                           </div>
+                           <hr class="my-4">
+                        </div>
+                        <div class="row">
+                           <div class="col-9">
+                              <input type="radio" id="create">
+                              <label for="create" class="bottom-left-each-title">
+                                 Update ticket report
+                              </label>
+                           </div>
+                           <div class="col-3 text-center">
+                              <p class="bottom-right-text rectangle border-0 rounded" style="background-color: lightgray; color: rgb(82, 82, 82);">DEFAULT</p>
                            </div>
                         </div>
                      </div>

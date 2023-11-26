@@ -8,11 +8,10 @@
     background-color: rgb(255, 255, 255);
 }
 
-.graph {
-   width: 35vw;
-   height: auto;
+#graph {
+   width: 40vw;
    max-width: 600px;
-   max-height: 600px;
+   max-height: 700px;
 }
 
 .left-panel-title {
@@ -82,4 +81,16 @@ body {
     font-family: "Alegreya Sans";
     color: #a9acbc;
     font-size: 17px;
+}
+
+.bottom-right-text {
+    font-family: "Alegreya Sans";
+    color: #a9acbc;
+    font-size: 17px;
+    margin-left: -3px;
+    margin-right: -3px;
+}
+
+.my-4 {
+    margin-top: -5px;
 }
